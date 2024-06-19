@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Oswald:wght@200..700&family=Shalimar&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    background-image: url("./coffee/top.avif");
+    height: 180px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.image p{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    font-family: "Shalimar", cursive;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    margin-top: 5px;
+    width: 7%;
+    height: 100px;
+}
+
+.nav{
+    margin-top: -5px;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 600;
+}
+
+
+.nav ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+
+.nav ul li:hover{
+    color: rgb(198, 198, 198);
+    transform: scale(1.2);
+}
+
+/* ------------------------------------------------------------------ */
+
+/*                     Main                                           */
+
+.main{
+    font-family: "LXGW WenKai TC", cursive;
+}
+
+.coffee-banner{
+    margin-top: 5px;
+    background-image: url("./coffee/coffeeBanner.png");
+    height: 700px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* font-family: "LXGW WenKai TC", cursive; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.coffee-banner-text{
+    width: 52%;
+    margin-left: 6%;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+.coffee-coffee-text h3{
+    font-family: "Oswald", sans-serif;
+}
+
+.coffee-banner-title{
+    font-weight: 500;
+    font-size: x-large;
+    margin-left: 10%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.coffee-banner-para{
+    font-weight: 400;
+    font-size: larger;
+}
+
+.coffee-coffee{
+    margin-top: 5px;
+    background-image: url("./coffee/coffeeBg.png");
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    border-radius: 5px;
+}
+
+.coffee-coffee-text{
+    width: 52%;
+    margin-left: 75px;
+    margin-top: 4%;
+}
+
+.coffee-coffee-text h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 33px;
+    margin-left: 30%;
+
+}
+
+.coffee-coffee-text .large{
+    text-align: justify;
+}
+.coffee-coffee-text .small{
+    text-align: justify;
+    opacity: 0;
+}
+
+.coffee-coffee-img {
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+    /* height: 100%; */
+}
+
+.coffee-coffee-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.types-of-coffee{
+    /* border: 2px solid black; */
+    margin-top: 5px;
+    /* height: 700px; */
+    background-image: url("./coffee/coffeeBg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+}
+
+.types-of-coffee-heading{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 33px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.types-of-coffee img:hover{
+    transform: scale(1.08);
+    transition: 0.3s ease;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 25px;
+    /* height: 50px; */
+    /* background-color: aqua; */
+    /* position: relative; */
+}
+
+.col p{
+    width: 79%;
+    text-align: justify;
+}
+
+.col img{
+    width: 20%;
+    border-radius: 5px;
+}
+
+.major-brands{
+    background-image: url("./coffee/coffeeBg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.major-brands img:hover{
+    background-color: black;
+}
+
+.row{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.element{
+    width: 23%;
+    background-color: white;
+    border: 1px solid black;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    overflow: hidden;
+    /* align-items: center; */
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+
+.element img{
+    width: 60%;
+    
+}
+
+.element .small{
+    opacity: 0;
+}
+
+.row2{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.gallery{
+    background-image: url("./coffee/coffeeBanner.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.gallery-row{
+    display: flex;
+    justify-content: space-around;
+    width: 87%;
+    
+}
+
+.img{
+    width: 23%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery .img:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+}
+
+.gallery-row-2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.updates{
+    margin-top: 5px;
+    background-image: url("./coffee/coffeeBanner.png");
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 400px; */
+}
+
+.updates div{
+    margin-bottom: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.get-updates{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.update-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input, textarea{
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+}
+
+textarea{
+    height: 100px;
+}
+::placeholder{
+    font-size: 15px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 13%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+@media (orientation: portrait) {
+    .coffee-coffee-text .large {
+        opacity: 0;
+    }
+
+    .coffee-coffee.text .small {
+        opacity: 1;
+    }
+
+    .nav ul li:hover{
+        color: rgb(255, 70, 255);
+        transform: scale(1.2);
+    }
+
+    button{
+        width: 25%;
+    }
+    button:hover{
+        background-color: rgb(197, 197, 197);
+        color: black;
+    }
+    /* .element .small{
+        opacity: 1;
+    }
+    .element .large{
+        opacity: 0;
+    } */
+}
